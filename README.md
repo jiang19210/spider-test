@@ -17,8 +17,8 @@ https://github.com/jiang19210/bulldozer-c
 #### 使用说明
 
 1. 配置db连接，参考配置如下:https://github.com/jiang19210/spider-test/blob/master/config/local.json
-    * （1）除了redis是必须，mongodb和mysql可以不进行配置；但是如果利用bulldozer存储数据到mysql或者mongodb就需要进行配置  
-    * （2）redis配置中cluster里面是集群配置，和单机配置只需要一个即可，如果两个都配置了，会优先连接集群配置，既单机配置失效
+     ######（1）除了redis是必须，mongodb和mysql可以不进行配置；但是如果利用bulldozer存储数据到mysql或者mongodb就需要进行配置  
+    ###### （2）redis配置中cluster里面是集群配置，和单机配置只需要一个即可，如果两个都配置了，会优先连接集群配置，既单机配置失效
 2. 运行：node test/dianping_task.js , node test/dianping_task.js
 ******
 全局变量说明：
