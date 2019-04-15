@@ -5,6 +5,6 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "vertical-spider": "0.0.0"
+    "vertical-spider": "0.0.01"
   }
 }
